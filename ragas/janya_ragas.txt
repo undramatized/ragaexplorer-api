@@ -1,0 +1,281 @@
+8 | HanumathOdi
+AHiri                | 8| S R1 S G3 M1 P D1 N2 S  | S N2 D1 P M1 G3 R1 S
+asAvEri              | 8| S R1 M1 P D1 S          | SN2SPD1M1PR1G2R1S
+bhUpALam             | 8| S R1 G2 P D1 S          | S D1 P G2 R1 S
+dhanyAsi             | 8| S G2 M1 P N2 S          | S N2 D1 P M1 G2 R1 S
+punnAgavarALi        | 8| N2 , S R1 G2 M1 P D1 N2 | N2 D1 P M1 G2 R1 S N2 ,
+
+10 | nAtakapriya
+sindhu bhairavi      |10| S R2 G2 M1 G2 P D1 N2 S | N2 D1 P M1 G2 R1 S N2 S
+
+13 | gAyakapriya
+kalagada             |13| S R1 G3 P D1 N1 S       | S N1 D1 P G3 R1 S
+
+14 | vakulAbharaNam
+vasanthabhairavi     |14| S R1 G3 M1 D1 N2 S      | S N2 D1 M1 P M1 G3 R1 S
+
+15 | mAyAmALava gowLA
+ardhradhesi          |15| S R1 G3 M1 P D1 S N3 S  | S D1 P M1 G3 R1 S
+bowLi                |15| S R1 G3 P D1 S          | S N3 D1 P G3 R1 S
+gowLa                |15| S R1 M1 P N3 S          | S N3 P M1 R1 G3 M1 R1 S
+gowLipanthu          |15| S R1 M1 P N3 S          | SN3D1PM1D1M1G3R1S
+gowri                |15| S R1 M1 P N3 S          | S N3 D1 P M1 G3 R1 S
+gujjari              |15| S R1 G3 M1 P D1 N3 S    | S D1 N3 P M1 G3 R1 S
+gumma kAmbhoji       |15| S R1 G3 P D1 N3 D1 S    | S N3 D1 P M1 G3 R1 S
+gundhakriya          |15| S R1 M1 P N3 S          | S N3 P D1 P M1 G3 R1 S
+jaganmOhini          |15| S G3 M1 P N3 S          | S N3 P M1 G3 R1 S
+kannadaban'gALa      |15| S R1 M1 G3 M1 P D1 S    | S D1 P M1 G3 R1 S
+kRushNaveNi          |15| S R1 G3 M1 P N3 S       | S N3 P M1 G3 R1 S
+lalithA              |15| S R1 G3 M1 D2 N3 S      | S N3 D2 M1 G3 R1 S
+malaHari             |15| S R1 M1 P D1 S          | S D1 P M1 G3 R1 S
+mallikA vasantham    |15| S G3 M1 P N3 S          | S N3 D1 P M1 G3 R1 S
+mangaLakaishiki      |15| S M1 G3 M1 P M1 D1 N3 S | S N3 D1 P M1 G3 R1 S
+mEchabowLi           |15| S R1 G3 P D1 S          | S D1 P M1 G3 R1 S
+mEGaranjani          |15| S R1 G3 M1 N3 S         | S N3 M1 G3 R1 S
+nAdhanAmakriya       |15| S R1 G3 M1 P D1 N3      | N3 D1 P M1 G3 R1 S N3
+pAdi                 |15| S R1 M1 P N3 S          | S N3 P D1 P M1 R1 S
+pharaz               |15| S G3 M1 P D1 N3 S       | S N3 D1 P M1 G3 R1 S
+pUrvi                |15| S R1 G3 M1 P D1 N3 D1 S | SN3D1PM1D1M1G3R1S
+rEvagupthi           |15| S R1 G3 P D1 S          | S D1 P G3 R1 S
+sAran'ganAtha        |15| S R1 M1 P D1 S          | S N3 S D1 P M1 G3 R1 S
+sAvEri               |15| S R1 M1 P D1 S          | S N3 D1 P M1 G3 R1 S
+sindhu rAmakriya     |15| S G3 M1 P D1 N3 S       | S N3 P D1 P M1 G3 S
+thakka  (a)          |15| S R1 S M1 G3 M1 D1 N3 S | S N3 P M1 G 3 M1 P R1 G3 S
+thakka  (b)          |15| S G3 M1 P M1 D1 N3 S    | S N3 D1 P M1 G3 R1 S
+
+16 | chakravAkam
+bindhumAlini         |16| S G3 R1 G3 M1 P N2 S    | S N2 S D2 P G3 R1 S
+kalAvathi            |16| S R1 M1 P D2 S          | S D2 P M1 G3 S R1 S
+malayamArutham       |16| S R1 G3 P D2 N2 S       | S N2 D2 P G3 R1 S
+valachi              |16| S G3 P D2 N2 S          | S N2 D2 P G3 S
+vegavAHini           |16| S R1 G3 M1 P D2 N2 D2 S | S N2 D2 P M1 G3 R1 S
+
+17 | sUryakAntam
+bhairavam            |17| S R1 G3 M1 P D2 N3 S    | S D2 P M1 G3 R1 S
+sowrAshtram          |17| S R1 G3 M1 P M1 D2 N3 S | S N3 D2 N2 D2 P M1 G3 R1 S
+supradhIpam          |17| S R1 M1 P D2 S          | S N3 D2 P M1 G3 M1 R1 S
+vasanthA             |17| S M1 G3 M1 D2 N3 S      | S N3 D2 M1 G3 R1 S
+
+19 | Jan'kAradhvani
+pUrnalalitha         |19| S G2 R2 M1 P S          | S N1 D1 P M1 G2 R2 S
+
+20 | naTabhairavi
+amrithavAHini        |20| S R2 M1 P D1 N2 S       | S N2 D1 M1 G2 R2 S
+Anandhabhairavi      |20| SG2R2G2M1PD2PN2S        | S N2 D2 P M1 G2 R2 S
+bhairavi             |20| S R2 G2 M1 P D2 N2 S    | S N2 D1 P M1 G2 R2 S
+Gantha               |20| SG2R2G2M1PD2PN2D2N2S    | S N2 D2 P M1 G2 R2 S
+gopikavasantham      |20| S M1 P N2 D1 N2 D1 S    | S N2 D1 P M1 G2 S
+HindhoLam            |20| S G2 M1 D1 N2 S         | S N2 D1 M1 G2 S
+jayanthashrI         |20| S G2 M1 D1 N2 S         | S N2 D1 M1 P M1 G2 S
+jingla               |20| SR2G2M1PD1N2D1PS        | S N2 D1 P M1 G2 R2 S
+mAnji                |20| S R2 G2 M1 P D2 N2 S    | S N2 D1 P M1 G2 R2 S
+mArgaHindhoLam       |20| S R2 G2 M1 P D2 N2 S    | S N2 D2 M1 G2 S
+pUrNashajja          |20| S R2 G2 M1 N2 N2 S      | S N2 P M1 G2 R2 S
+sAramathi            |20| S R2 G2 M1 P D1 N2 S    | S N2 D1 M1 G2 S
+sudhdha dhanyAsi     |20| S G2 M1 P N2 S          | S N2 P M1 G2 S
+sudhdha dhesi        |20| S R2 M1 P D1 N2 S       | S N2 D1 P M1 G2 R2 S
+
+21 | kIravANi
+kiraNAvaLi           |21| S R2 G2 M1 P D1 N3 S    | S P M1 G2 R2 S
+kalyANa vasantham    |21| S G2 M1 D1 N3 S         | S N3 D1 P M1 G2 R2 S
+
+22 | KaraHarapriya
+AbhEri               |22| S G2 M1 P N2 S          | S N2 D2 P M1 G2 R2 S
+abhOgi               |22| S R2 G2 M1 D2 S         | S D2 M1 G2 R2 S
+AndhOLika            |22| S R2 M1 P N2 S          | S N2 D2 M1 R2 S
+bAgEshrI             |22| S G2 M1 D2 N2 S         | S N2 D2 M1 P D2 G2 M1 R2 S
+brindhAvanasAran'ga  |22| S R2 M1 P N3 S          | S N2 P M1 R2 G2 S
+chiththaranjani      |22| S R2 G2 M1 P D2 N2      | N2 D2 P M1 G2 R2 S N2.
+dharbAru             |22| S R2 M1 P D2 N2 S       | R2SN2SD2PM1R2G2G2R2S
+dhEvAmRuthavarshiNi  |22| S R2 G2 M1 N2 D2 N2 S   | S N2 D2 P M1 G2 R2 S
+dhEvakriya           |22| S R2 M1 P N2 S          | S N2 D2 N2 P M1 G2 R2 S
+dhEvamanOHari        |22| S R2 M1 P D2 N2 S       | S N2 D2 N2 P M1 R2 S
+dhilipakam           |22| SR2G2R2M1PN2D2N2PD2N2S  | S N2 D2 P M1 G2 R2 S
+HindhoLavasantha     |22| S G2 M1 P D2 N2 D2 S    | S N2 D2 P M1 D2 M1 G2 S
+HindhusthAni kApi    |22| S R2 M1 P N3 S          | S N2 D2 N2 P M1 G2 R2 S
+HusEni               |22| S R2 G2 M1 P N2 D2 N2 S | S N2 D1 P M1 G2 R2 S
+jayamanOHari         |22| S R2 G2 M1 D2 S         | S N2 D2 M1 G2 R2 S
+jayanArAyaNi         |22| S R2 G2 M1 P D2 S       | S N2 D2 P M1 G2 R2 S
+jayanthasEna         |22| S G2 M1 P D2 S          | S N2 D2 P M1 P M1 G2 S
+kAnadA               |22| S R2 G2 M1 D N2 S       | S N2 P M1 G2 M1 R2 S
+kalAniDhi            |22| SR2G2M1SPM1D2N2S        | S N2 D2 P M1 G2 R2 S
+kannadagowLa         |22| S R2 G2 M1 P N2 S       | S N2 D2 P M1 G2 S
+kApijingla           |22| S N2 S R2 G2 M1         | M1 G2 R2 S N2 D2 N2 S
+karnAtaka kApi       |22| SR2G2M1R2PM1PD2N2S      | S N2 D2 P M1 G2 M1 R2 S
+mAlavashrI           |22| SG2M1PN2D2N2PD2N2S      | S N2 D2 P M1 G2 S
+madhyamAvathi        |22| S R2 M1 P N2 S          | S N2 P M1 R2 S
+maNirangu            |22| S R2 M1 P N2 S          | S N2 P M1 G2 R2 S
+manjari              |22| SG2R2G2M1PN2D2N2S       | S N2 D2 P M1 G2 R2 S
+manOHari             |22| S G2 R2 G2 M1 P D2 S    | S D2 P M1 G2 R2 S
+muKAri               |22| S R2 M1 P N2 D2 S       | S N2 D1 P M1 G2 R2 S
+nAdhachinthAmaNi *   |22| S G2 M1 P N2 D2 N2 S    | S N2 D2 P M1 G2 R2 G2 S
+nAdhatharan'gini     |22| S P M1 R2 G2 R2 S       | S P N2 D2 P M1 G2 R2 S
+nAyaki               |22| S R2 M1 P D2 N2 D2 P S  | S N2 D2 P M1 R2 G2 R2 S
+phalamanjari         |22| S G2 M1 D2 S            | S N2 D2 P M1 G2 M1 R2 S
+panchama rAga        |22| S R2 D2 P N2 S          | S N2 D2 P M1 G2 R2 S
+pUrnashadjam         |22| S R2 G2 M1 N2 S         | S N2 P M1 G2 R2 S
+pushpalathika        |22| S R2 G2 M1 P N2 S       | S N2 P M1 G2 R2 S
+rIthigowLa           |22| SG2R2G2M1N2D2M1N2N2S    | SN2D2M1G2M1PM1G2R2S
+rudhrapriya          |22| S R2 G2 M1 P D2 N2 S    | S N2 P M1 G2 R2 S
+sAlakabhairavi       |22| S R2 M1 P D2 S          | S N2 D2 P M1 G2 R2 S
+saindhavi            |22| N2D2N2SR2G2M1PD2N2      | D2PM1G2R2SN2D2N2S
+sidhdhasEna          |22| S G2 R2 G2 M1 P D2 S    | SN2D2M1PM1R2G2R2S
+shrIrAga             |22| S R2 M1 P N2 S          | SN2PD2N2PM1R2G2R2S
+shrIranjani          |22| S R2 G2 M1 D2 N2 S      | S N2 D2 M1 G2 R2 S
+sudhdha ban'gALa     |22| S R2 M1 P D2 S          | S D2 P M1 R2 G2 R2 S
+sudhdha dhanyAsi     |22| S G2 M1 P N2 S          | S N2 P M1 G2 S
+svarabhUshani        |22| S G2 M1 P D2 N2 S       | S N2 D2 P M1 R2 S
+
+24 | varuNapriya
+vasantha varALi 1    |24| S R2 M1 P D3 N3         | N3 D3 P G2 R2 S N3
+vasantha varALi 2    |24| S R2 M1 P D3 N3         | N3 D3 P M G1 R S N
+vIravasantham        |24| S G2 R2 M1 P S          | S N3 D3 P M1 G2 R2 S
+
+27 | sarasAn'gi
+kamalAmanOHari       |27| S G3 M1 P N3 S          | S N3 D1 P M1 G3 S
+naLinakAnthi         |27| S G3 R2 M1 P N3 S       | S N3 P M1 G3 R2 S
+
+28 | HarikAmbhOji
+baHudhAri            |28| S G3 M1 P D2 N2 S       | S N2 P M1 G3 S
+balaHamsa            |28| S R2 M1 P D2 S          | S N2 D2 P M1 R2 M1 G3 S
+ChAyAtharan'giNi     |28| S R2 M1 G3 M1 P N2 S    | S N2 D2 P M1 G3 R2 S
+dhvijAvanthi         |28| S R2 M1 G3 M1 P D2 S    | S N2 D2 P M1 G3 R2 G2 R2 S
+HaridhAsapriya *     |28| S P M1 G3 M1 P D2 N2 S  | S N2 D2 N2 P M1 G3 R2 S
+IshamanOHari         |28| S R2 G3 M1 P D2 N2 S    | SN2D2PM1R2M1G3R2S
+janjUti              |28| S R2 G3 M1 P D2 N2      | N2D2PM1G3R2SN2.D2.P.D2.S
+jujAHuli             |28| S M1 G3 M1 P D2 N2 S    | S N2 D2 P M1 G3 S
+kAmbhOji             |28| S R2 G3 M1 P D2 S       | SN2D2PM1G3R2SN3.P.D2.S
+kApinArAyaNi         |28| S R2 M1 P D2 N2 S       | S N2 D2 P M1 G3 R2 S
+kamAs                |28| S M1 G3 M1 P D2 N2 S    | S N2 D2 P M1 G3 R2 S
+karnAtaka bEHAg      |28| S R2 G3 M1 P D2 N2 S    | SN2D2N2PD2M1G3R2G3R2
+kedhAragowLa         |28| S R2 M1 P N2 S          | S N2 D2 P M1 G3 R2 S
+kOkilaDhvani         |28| S R2 G3 M1 D2 N2 D2 S   | S N2 D2 N2 P M1 G3 R2 S
+kunthalavarALi       |28| S M1 P D2 N2 D2 S       | S N2 D2 P M1 S
+mAlavi               |28| SR2G3M1PN2M1D2N2S       | SN2D2N2PM1G3M1R2S
+mOHana               |28| S R2 G3 P D2 S          | S D2 P G3 R2 S
+nAgasvarAvaLi        |28| S G3 M1 P D2 S          | S D2 P M1 G3 S
+nArAyaNagowLa        |28| S R2 M1 P N2 D2 N2 S    | S N2 P M1 G3 R2 G3 R2 S
+nArAyani             |28| S R2 M1 P D2 S          | S N2 D2 P M1 R2 S
+nAtakuraN~ji         |28| SR2G3M1N2D2N2PD2N2S     | S N2 D2 M1 G3 M1 P G3 R2 S
+navarasa kalAnidhi * |28| S R2 M1 P S N2 S        | S D2 P M1 G3 R2 S
+navarasa kannada     |28| S G3 M1 P S             | S N2 D2 M1 G3 R2 S
+prathApa  varALi     |28| S R2 M1 P D2 P S        | S D2 P M1 G3 R2 S
+pravAlajothi         |28| S R2 M1 P D2 N2 S       | S N2 D2 N2 P M1 G3 G3
+rAgapanjaram         |28| S R2 M1 P D2 N2 D2 S    | S N2 D2 M1 R2 S
+ravichandhrika       |28| S R2 G3 M1 D2 N2 D2 S   | S N2 D2 M1 G3 R2 S
+sAma                 |28| S R2 M1 P D2 S          | S D2 P M1 G3 R2 S
+saHAna               |28| S R2 G3 M1 P M1 D2 N2 S | SN2SD2N2D2PM1G3M1R2G3R2S
+sarasvathi manOHari  |28| S R2 G3 M1 D2 S         | S D2 N2 P M1 G3 R2 S
+sindhu kannada       |28| SM1G3M1R2G3M1PD2PS      | S N2 D2 P M1 G3 R2 S
+sudhdha tharan'gini  |28| SR2G3M1R2M1PD2N2D2S     | S N2 D2 P M1 G3 R2 S
+supOshini            |28| S R2 S M1 P N2 D2 S     | S D2 N2 P M1 R2 M1 S
+surati               |28| S R2 M1 P N2 S          | SN2D2PM1G3PM1R2S
+svarAvaLi            |28| S M1 G3 M1 P N2 D2 N2 S | S N2 P D2 M1 G3 R2 S
+svaravEdhi *         |28| S M1 G3 M1 P N2 D2 N2 S | S N2 D2 N2 P M1 G3
+thilan'g             |28| S G3 M1 P N3 S          | S N2 P M1 G3 S
+umAbharaNam          |28| S R2 G3 M1 P D2 N2 S    | S N2 P M1 R2 G3 M1 R2 S
+vINA vAdhini         |28| S R2 G3 P N2 S          | S N2 P G3 R2 S
+vivardhini           |28| S R2 M1 P S             | S N2 D2 P M1 G3 R2 S
+yadhukulakAmbhOji    |28| S R2 M1 P D2 S          | S N2 D2 P M1 G3 R2 S
+
+29 | DhIrashan'karAbharaNam
+Arabhi               |29| S R2 M1 P D2 S          | S N3 D2 P M1 G3 R2 S
+atAna                |29| S R2 M1 P N3 S          | S N3 D2 P M1 P G3 R2 S
+ban'gALa             |29| S R2 G3 M1 P M1 R2 P S  | S N3 P M1 R2 G3 R2 S
+begada               |29| SG3R2G3M1PD2N2D2PS      | S N3 D2 P M1 G3 R2 S
+bEHAg                |29| S G3 M1 P N3 D2 N3 S    | S N3 D2 P M1 G3 R2 S
+bilaHari             |29| S R2 G3 P D2 S          | S N3 D2 P M1 G3 R2 S
+dhesAkshi            |29| S R2 G3 P D2 S          | S N3 D2 P M1 G3 R2 S
+dhEvagAndhAri        |29| S R2 M1 P D2 S          | S N3 D2 P M1 G3 R2 S
+garudaDhvani         |29| S R2 G3 M1 P D2 N3 S    | S D2 P G3 R2 S
+HamsaDhvani          |29| S R2 G3 P N3 S          | S N3 P G3 R2 S
+HindhusthAni bEHAg   |29| S G3 M1 P N3 D2 N3 S    | SN3D2PM2G3M1G3R2S
+janaranjani          |29| S R2 G3 M1 P D2 P N3 S  | S D2 P M1 R2 S
+kadhana kuthUHalam   |29| S R2 M1 D2 N3 G3 P S    | S N3 D2 P M1 G3 R2 S
+kannada              |29| S G3 M1 P M1 D2 N3 S    | S D2 P M1 G3 M1 R2 N3. S
+kEdhAram             |29| S M1 G3 M1 P N3 S       | S N3 P M1 G3 R2 S
+koiAHalam            |29| S P M1 G3 M1 P D2 N3 S  | S N3 D2 P M1 G3 R2 S
+kuraN~ji             |29| S N3 S R2 G3 M1 P D2    | D2 P M1 G3 R2 S N3 S
+kuthUHalam           |29| S R2 M1 N3 D2 P N3 S    | S N3 D2 P M1 G3 R2 S
+mAnd                 |29| S G3 M1 P D2 S          | S N3 D2 P M1 G3 R2 S
+navaroj              |29| P D2 N3 S R2 G3 M1 P    | M1 G3 R2 S N3 D2 P
+nIlAmbari            |29| S R2 G3 M1 P D2 P N3 S  | S N3 P M1 G3 R2 G3 S
+pUrNachandhrika      |29| S R2 G3 M1 P D2 P S     | S N3 P M1 R2 G3 M1 R2 S
+sindhu mandhAri      |29| S R2 G3 M1 P D2 P S     | SN3D2PG3M1D2PM1R2S
+sudhdha sAvEri       |29| S R2 M1 P D2 S          | S D2 P M1 R2 S
+
+34 | vAgathIsvari
+ChAyAnAta            |34| S R3 G3 M1 P M1 P S     | S N2 D2 N2 P M1 R3 S
+gAnavAridhi          |34| S M1 R3 G3 M1 P D2 N2 S | S D2 N2 P M1 R3 S
+
+36 | chalanAta
+gambhiranAta         |36| S G3 M1 P N3 S          | S N3 P M1 G3 S
+nAta                 |36| S R3 G3 M1 P D3 N3 S    | S N3 P M1 R3 S
+
+39 | JAlavarALi
+JinAvaLi             |39| SG1R1G1M2PD1N3D1S       | S N3 D1 P M2 G1 R1 S
+varALi               |39| S G1 R1 G1 M2 P D1 N3 S | S N3 D1 P M2 G1 R1 S
+
+40 | navanItham
+nabhOmaNi            |40| S R1 G1 R1 M2 P S       | S N2 D2 P M2 G1 R1 S
+
+41 | pAvani
+chandhrajyothi       |41| S R1 G1 M2 P D2 S       | S D2 P M2 G1 R1 S
+vijayashrI           |41| S G1 R1 G1 M2 P N3 S    | S N3 P M2 G1 R1 S
+
+46 | shadhvidha mArgini
+thivravAHini         |46| S R1 G2 M2 P D2 N2 S    | SN2D2PM2G2R1G2M2R1S
+
+51 | kAmavardhini
+dhipaka              |51| S G3 M2 P D1 P S        | S N3 D1 N3 P M2 G3 R1 S
+mandhAri             |51| S R1 G3 M2 P N3 S       | S N3 P M2 G3 R1 S
+
+52 | rAmapriya
+rAma manOHari        |52| S R1 G3 M2 P D2 N2 D2 S | S N2 D2 P M2 G3 R1 S
+
+53 | gamanashrama
+gamakakriya          |53| S R1 G3 M2 P D2 P S     | S N3 D2 P M2 G3 R1 S
+gamanakriya          |53| S R1 M2 P D2 N3 S       | S N3 D2 P M2 G3 M2 R1 S
+HamsAnandhi          |53| S R1 G3 M2 D2 N3 S      | S N3 D2 M2 G3 R1 S
+mEchakAn'gi          |53| S R1 G3 M2 P D2 N3 S    | S N3 P D2 P M2 G3 R1 S
+pUrvikalyANi         |53| S R1 G3 M2 P D2 P S     | S N3 D2 P M2 G3 R1 S
+
+54 | vishvAmbhari
+vijayavasantha       |54| S M2 P D3 N3 S          | S N3 P M2 G3 R1 S
+
+56 | shanmuKapriya
+chinthAmaNi          |56| S R2 P M2 P D2 N2 S     | S P D1 P M2 G2 R2 S
+
+57 | simHendra madhyamam
+sudhdha rAga         |57| S R2 G2 M2 P N3 S       | S N3 P M2 G2 R2 S
+
+58 | HemAvathi
+vijayanAgari         |58| S R2 G2 M2 P D2 S       | S D2 P M2 G2 R2 S
+
+59 | DharmAvathi
+madhuvanthi          |59| S G2 M2 P N3 S          | S N3 D2 P M2 G2 R2 S
+ranjani              |59| S R2 G2 M2 D2 S         | S N3 D2 M2 G2 S R2 G2 S
+
+60 | nIthimathi
+amarasenapriya       |60| S R2 M2 P N3 S          | S N3 P M2 R2 G2 R2 S
+HamsanAdham          |60| S R2 M2 P N3 S          | S N3 P M2 R2 S
+kaikavAsi            |60| S R2 G2 M2 P D3 N3 S    | S N3 P M2 G2 R2 S
+
+61 | kAnthAmaNi
+shruthiranjani       |61| S R2 G3 M2 P D1 N1      | N1 D1 P M2 G3 S R2 S
+
+62 | rishabhapriya
+gopriya              |62| S R2 G3 M2 D1 N2 S      | S N2 D1 M2 G3 R2 S
+
+64 | vAchaspathi
+bhUshavaLi           |64| S R2 G3 M2 P D2 S       | S N2 D2 P M2 G3 R2 S
+sarasvathi           |64| S R2 M2 P D2 S          | S N2 D2 P M2 R2 S
+
+65 | mechakalyANi
+HamirkalyANi         |65| S P M2 P D2 N3 S        | SN3D2PM2M1G3PM1R2S
+mOHanakalyANi        |65| S R2 G3 P D2 S          | S N3 D2 P M2 G3 R2 S
+sAran'ga             |65| S R2 G3 M2 P D2 N3 S    | SN3D2PM2R2G3M1R2S
+yamunAkalyANi        |65| S R2 G3 P M2 P D2 S     | S D2 P M2 P G3 R2 S
+
+66 | chithrAmbari
+amRuthavarshiNi      |66| S G3 M2 P N3 S          | S N3 P M2 G3 S
