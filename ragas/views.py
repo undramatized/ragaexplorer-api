@@ -13,3 +13,7 @@ class RagaList(generics.ListCreateAPIView):
 
 class RagaDetail(generics.RetrieveAPIView):
     serializer_class = RagaSerializer
+
+    def get_queryset(self):
+        print "pk value:", self.kwargs['pk']
+        return Raga.objects.filter(pk=self.kwargs['pk'])
