@@ -2,4 +2,4 @@
   python:
     - "2.7"
   script:
-    - pytest
+    - python manage.py test
