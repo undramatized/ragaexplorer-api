@@ -17,7 +17,8 @@ from django.conf.urls import url, include
 from django.contrib import admin
 from rest_framework.documentation import include_docs_urls
 
-from . import views
+from django.conf.urls.static import static
+from . import views, settings
 
 
 urlpatterns = [
@@ -25,4 +26,4 @@ urlpatterns = [
     url(r'^docs/', include_docs_urls(title='Ragas API', description='RESTful API for Ragas')),
     url(r'^', include('ragas.urls', namespace="ragas")),
     url(r'^$', views.api_root),
-]
+]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
