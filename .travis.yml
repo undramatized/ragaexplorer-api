@@ -13,4 +13,4 @@ deploy:
     repo: undramatized/ragaexplorer-api
   run:
     - python manage.py migrate
-    - python manage.py loaddata melakarta_ragas
+    - python manage.py loaddata melakarta_ragas janya_ragas

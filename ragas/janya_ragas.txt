@@ -1,3 +1,4 @@
+
 8 | HanumathOdi
 AHiri                | 8| S R1 S G3 M1 P D1 N2 S  | S N2 D1 P M1 G3 R1 S
 asAvEri              | 8| S R1 M1 P D1 S          | S N2 S P D1 M1 P R1 G2 R1 S
@@ -72,7 +73,7 @@ mAnji                |20| S R2 G2 M1 P D2 N2 S    | S N2 D1 P M1 G2 R2 S
 mArgaHindhoLam       |20| S R2 G2 M1 P D2 N2 S    | S N2 D2 M1 G2 S
 pUrNashajja          |20| S R2 G2 M1 N2 N2 S      | S N2 P M1 G2 R2 S
 sAramathi            |20| S R2 G2 M1 P D1 N2 S    | S N2 D1 M1 G2 S
-sudhdha dhanyAsi     |20| S G2 M1 P N2 S          | S N2 P M1 G2 S
+sudhdha dhanyasi     |20| S G2 M1 P N2 S          | S N2 P M1 G2 S
 sudhdha dhesi        |20| S R2 M1 P D1 N2 S       | S N2 D1 P M1 G2 R2 S
 
 21 | kIravANi
