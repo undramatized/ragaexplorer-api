@@ -51,3 +51,10 @@ class RagaTestCase(TestCase):
         shankara = Raga.objects.get(id = 1)
         self.assertEqual(
             shankara.get_ava_swaras(), ["S", "N2", "D2", "P", "M1", "G2", "R2", "S"])
+
+    def test_has_swaras(self):
+        shankara = Raga.objects.get(id = 1)
+        swaras1 = "S R2 P D2 N2"
+        swaras2 = "S R2 M2 P N2"
+        self.assertTrue(shankara.has_swaras(swaras1))
+        self.assertFalse(shankara.has_swaras(swaras2))
