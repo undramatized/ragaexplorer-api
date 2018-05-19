@@ -2,6 +2,13 @@
 # Script to extract melakarta ragas from melakarta_list.py and populate database
 import json, datetime
 
+def format_name(name):
+    clean_name = ""
+    for c in name:
+        if c.isalpha():
+            clean_name += c.lower()
+    return clean_name.capitalize()
+
 def populate_melakarta():
     melakarta_list = open('./melakarta_ragas.txt', 'r').readlines()
 
@@ -18,6 +25,7 @@ def populate_melakarta():
             "fields": {
                 "created": datetime.time().strftime('%Y-%m-%d %H:%M:%S'),
                 "name": name,
+                "format_name": format_name(name),
                 "arohanam": arohanam,
                 "avarohanam": avarohanam,
                 "melakarta": None
