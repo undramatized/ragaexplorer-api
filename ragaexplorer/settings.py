@@ -25,7 +25,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = ')ksx0mw&lajo396%kt6hdh1$1^wit54)fbqih4iv6x)9+s_7@p'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']
 
@@ -118,6 +118,16 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
+
+# Rest Framework Configuration
+# http://www.django-rest-framework.org/api-guide/permissions/#setting-the-permission-policy
+
+REST_FRAMEWORK = {
+    # Use Django's standard `django.contrib.auth` permissions,
+    # or allow read-only access for unauthenticated users.
+    'DEFAULT_PERMISSION_CLASSES': [],
+    'TEST_REQUEST_DEFAULT_FORMAT': 'json'
+}
 
 
 # Static files (CSS, JavaScript, Images)
