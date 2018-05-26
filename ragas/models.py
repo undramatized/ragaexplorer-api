@@ -3,6 +3,8 @@ from __future__ import unicode_literals
 
 from django.db import models
 
+from helpers import chord_helper
+
 # Create your models here.
 
 class RagaManager(models.Manager):
@@ -64,3 +66,17 @@ class Chord(models.Model):
     description = models.CharField(max_length=1000, blank=True, null=True)
     formula = models.CharField(max_length=20, blank=False, null=False)
     affix = models.CharField(max_length=20, blank=False, null=False)
+
+
+    # Returns a full chord, based on root note
+    def get_root_chord(self, root):
+        chord_full_name = root + " " + self.name
+        chord_name = root + self.affix
+        chord_notes = chord_helper.get_chord_notes(self, root)
+        chord_obj = {
+            'name' : chord_full_name,
+            'short' : chord_name,
+            'notes' : chord_notes,
+            'formula' : self.formula,
+        }
+        return chord_obj
