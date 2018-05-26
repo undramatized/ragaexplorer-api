@@ -6,4 +6,5 @@ from rest_framework.reverse import reverse
 def api_root(request, format=None):
     return Response({
        'ragas': reverse('ragas:raga-list', request=request, format=format),
+       'chords': reverse('ragas:chord-list', request=request, format=format),
     })

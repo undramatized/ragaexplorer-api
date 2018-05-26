@@ -1,9 +1,9 @@
-from ragas.models import Raga
+from ragas.models import Raga, Chord
 from rest_framework import generics, filters, status
 from rest_framework.response import Response
 from django_filters.rest_framework import DjangoFilterBackend
 
-from ragas.serializers import RagaSerializer
+from ragas.serializers import RagaSerializer, ChordSerializer
 
 
 class SwaraFilterBackend(filters.BaseFilterBackend):
@@ -43,3 +43,11 @@ class RagaDetail(generics.RetrieveAPIView):
 
     def get_queryset(self):
         return Raga.objects.filter(pk=self.kwargs['pk'])
+
+# chords/ => Returns all chords
+class ChordList(generics.ListAPIView):
+    """
+    Return a list of all the defined chords.
+    """
+    queryset = Chord.objects.all()
+    serializer_class = ChordSerializer
