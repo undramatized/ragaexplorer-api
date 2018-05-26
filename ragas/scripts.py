@@ -79,8 +79,41 @@ def populate_janya():
 
     format_file.close
 
+def populate_chords():
+    chord_list = open('./chord_list.txt', 'r').readlines()
+    chord_count = 1
+    formatted_list = []
+
+    for chord in chord_list:
+        if chord == '\n':
+            break
+        attributes = chord.split('|')
+        pk = chord_count
+        name = attributes[0].strip()
+        formula = attributes[1].strip()
+        affix = attributes[2].strip()
+        description = attributes[3].strip()
+        chord_obj = {
+            "model": "ragas.chord",
+            "pk": pk,
+            "fields": {
+                "name": name,
+                "formula": formula,
+                "affix": affix,
+                "description": description
+            }
+        }
+        chord_count += 1
+        formatted_list.append(chord_obj)
+
+    format_file = open('./fixtures/chords.json', 'w')
+    with format_file as fout:
+        json.dump(formatted_list, fout)
+
+    format_file.close
 
 
 if __name__ == '__main__':
     # populate_melakarta()
-    populate_janya()
+    # populate_janya()
+    populate_chords()
