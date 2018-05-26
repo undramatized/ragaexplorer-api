@@ -58,3 +58,9 @@ class Raga(models.Model):
         filter_swaras = set(swaras.split(" "))
         all_swaras = set(self.get_swaras())
         return filter_swaras.issubset(all_swaras)
+
+class Chord(models.Model):
+    name = models.CharField(max_length=100, unique=True, blank=False, null=False)
+    description = models.CharField(max_length=1000, blank=True, null=True)
+    formula = models.CharField(max_length=20, blank=False, null=False)
+    affix = models.CharField(max_length=20, blank=False, null=False)
