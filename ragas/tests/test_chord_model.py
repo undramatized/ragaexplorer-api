@@ -41,3 +41,9 @@ class ChordTestCase(TestCase):
             'formula' : "1 3 5",
         }
         self.assertCountEqual(get_maj_chord, maj_chord)
+
+    def test_get_chord_semitones(self):
+        maj = Chord.objects.get(pk=1)
+        maj_res = maj.get_semitones()
+        maj_semitones = [0, 4, 7]
+        self.assertCountEqual(maj_res, maj_semitones)

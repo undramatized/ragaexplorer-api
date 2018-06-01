@@ -3,9 +3,32 @@ from __future__ import unicode_literals
 
 from django.db import models
 
-from helpers import chord_helper
+from helpers import chord_helper, raga_helper
 
 # Create your models here.
+
+class Chord(models.Model):
+    name = models.CharField(max_length=100, unique=True, blank=False, null=False)
+    description = models.CharField(max_length=1000, blank=True, null=True)
+    formula = models.CharField(max_length=20, blank=False, null=False)
+    affix = models.CharField(max_length=20, blank=False, null=False)
+
+    # Returns the semitones that make up the chord formula
+    def get_semitones(self):
+        return chord_helper.get_chord_semitones(self)
+
+    # Returns a full chord, based on root note
+    def get_root_chord(self, root):
+        chord_full_name = root + " " + self.name
+        chord_name = root + self.affix
+        chord_notes = chord_helper.get_chord_notes(self, root)
+        chord_obj = {
+            'name' : chord_full_name,
+            'short' : chord_name,
+            'notes' : chord_notes,
+            'formula' : self.formula,
+        }
+        return chord_obj
 
 class RagaManager(models.Manager):
     def filter_swaras(self, swaras):
@@ -61,22 +84,8 @@ class Raga(models.Model):
         all_swaras = set(self.get_swaras())
         return filter_swaras.issubset(all_swaras)
 
-class Chord(models.Model):
-    name = models.CharField(max_length=100, unique=True, blank=False, null=False)
-    description = models.CharField(max_length=1000, blank=True, null=True)
-    formula = models.CharField(max_length=20, blank=False, null=False)
-    affix = models.CharField(max_length=20, blank=False, null=False)
-
-
-    # Returns a full chord, based on root note
-    def get_root_chord(self, root):
-        chord_full_name = root + " " + self.name
-        chord_name = root + self.affix
-        chord_notes = chord_helper.get_chord_notes(self, root)
-        chord_obj = {
-            'name' : chord_full_name,
-            'short' : chord_name,
-            'notes' : chord_notes,
-            'formula' : self.formula,
-        }
-        return chord_obj
+    # Given a root note, get all chords that can work within a raga
+    def get_chords(self, root):
+        swaras = self.get_swaras()
+        chords = Chord.objects.all()
+        #TODO: List all valid chords from swaras
