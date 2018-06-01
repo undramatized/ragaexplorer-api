@@ -25,9 +25,23 @@ NOTE_FEATURES = {
     '()' : "omitted",
 }
 
-def get_semitones(interval, omitted=False):
+# Converts the chord formula interval to semitones from root
+# ie. b3 => 3
+def get_semitone(interval):
     if interval[0] == '(':
-        return get_semitones(interval[1:-1], True)
+        return get_semitone(interval[1:-1])
+    elif len(interval) == 1:
+        return NOTE_INTERVALS[interval]
+    else:
+        feature = NOTE_FEATURES[interval[:-1]]
+        semitones = NOTE_INTERVALS[interval[len(interval)-1]]
+        return semitones+feature
+
+# Converts the chord formula interval to semitones from root, including omitted detail
+# ie. b3 => [3, False]
+def get_semitone_with_omitted(interval, omitted=False):
+    if interval[0] == '(':
+        return get_semitone_with_omitted(interval[1:-1], True)
     elif len(interval) == 1:
         return [NOTE_INTERVALS[interval], omitted]
     else:
@@ -35,6 +49,14 @@ def get_semitones(interval, omitted=False):
         semitones = NOTE_INTERVALS[interval[len(interval)-1]]
         return [semitones+feature, omitted]
 
+# Converts single semitone to a note, given a root note
+def semitone_to_note(semitone, root):
+    root_index = NOTES.index(root)
+    note_index = root_index + semitone
+    note = NOTES[note_index%12]
+    return note
+
+# Converts semitones to notes, given a root note
 def semitones_to_notes(semitones, root):
     root_index = NOTES.index(root)
     notes = []
@@ -44,24 +66,34 @@ def semitones_to_notes(semitones, root):
         notes.append({'note': note, 'omitted': semitone[1]})
     return notes
 
-# Given a Major chord, with '1 3 5' interval formula
-# Given root note as F
+# Takes a Major chord, eg. '1 3 5' interval formula
+# Takes root note eg. F
 
 # Identify '1 3 5' intervals as [0, 4, 7] semitones
 # Identify [0, 4, 7] as ['F', 'A', 'C']
 
-# Returns ['F', 'A', 'C']
+# Returns [{'note': 'F', 'omitted': False}, {'note': 'A', 'omitted': False}, {'note': 'C', 'omitted': False}]
 def get_chord_notes(chord, root):
     # '1 b3 5' => ['1', 'b3', '5']
     chord_formula = chord.formula.split()
     semitone_interval = []
 
     for note in chord_formula:
-        semitones = get_semitones(note)
+        semitones = get_semitone_with_omitted(note)
         semitone_interval.append(semitones)
 
     return semitones_to_notes(semitone_interval, root)
 
+def get_chord_semitones(chord):
+    # '1 b3 5' => ['1', 'b3', '5']
+    chord_formula = chord.formula.split()
+    semitones = []
+
+    for note in chord_formula:
+        semitone = get_semitone(note)
+        semitones.append(semitone)
+
+    return semitones
 
 if __name__ == '__main__':
     chord = {
