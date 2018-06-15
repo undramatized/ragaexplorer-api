@@ -1,4 +1,4 @@
-import chord_helper
+from ragas.helpers import chord_helper
 
 SWARAS = ["S", "R1", "R2", "R3", "G1", "G2", "G3", "M1", "M2", "P", "D1", "D2", "D3", "N1", "N2", "N3"]
 
