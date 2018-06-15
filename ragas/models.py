@@ -88,4 +88,4 @@ class Raga(models.Model):
     def get_chords(self, root):
         swaras = self.get_swaras()
         chords = Chord.objects.all()
-        #TODO: List all valid chords from swaras
+        return raga_helper.get_chords_from_swaras(swaras, chords, root)

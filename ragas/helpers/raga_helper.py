@@ -21,6 +21,8 @@ SWARA_INTERVALS = {
     'N3'  : 11,
 }
 
+# Returns a list of semitone intervals that a list of swaras represent
+# eg. [S, R2, G3, P, D2] => [0, 2, 4, 7, 9]
 def get_semitones(swaras):
     semitones = []
     for swara in swaras:
@@ -28,15 +30,21 @@ def get_semitones(swaras):
 
     return semitones
 
+# Returns the western scale note for a swara, given a root note
+# eg. R2 in the key D => E
 def get_swara_note(swara, root):
     swara_semitone = SWARA_INTERVALS[swara]
     return chord_helper.semitone_to_note(swara_semitone, root)
 
+# Returns a chord transposed to a particular swara's semitone position, to get it's relative position in a raaga
+# eg. [0,4,7] for swara at 2 => [2,6,9]
 def transpose_chord(swara_semi, chord_semi):
     transposed = []
     for note in chord_semi:
         transposed.append((note+swara_semi)%12)
+    return transposed
 
+# Arguments: All swaras, all chords, root note
 # Returns a list of chords per swaras
 # {
 #   'S' : {'note': 'F', 'chord_ids': [1, 4, 7]},
@@ -48,7 +56,7 @@ def get_chords_from_swaras(swaras, chords, root):
     swara_semi_set = set(swara_semitones)
     swara_chords = {}
 
-    for i in range(length(swaras)):
+    for i in range(len(swaras)):
         note = get_swara_note(swaras[i], root)
         chords = []
         for chord in chords:
@@ -70,5 +78,5 @@ def get_chords_from_swaras(swaras, chords, root):
 
 
 if __name__ == '__main__':
-    swaras = ["S", "R1", "G1", "M1", "P", "D2", "N3"]
-    print get_swara_note("G1", "F")
+    swaras = ["S", "R1", "G2", "M1", "P", "D2", "N3"]
+    # print get_swara_note("G1", "F")
