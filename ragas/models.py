@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 
 from django.db import models
 
-from helpers import chord_helper, raga_helper
+from ragas.helpers import chord_helper, raga_helper
 
 # Create your models here.
 

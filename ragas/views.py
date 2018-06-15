@@ -1,5 +1,6 @@
 from ragas.models import Raga, Chord
 from rest_framework import generics, filters, status
+from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from django_filters.rest_framework import DjangoFilterBackend
 
@@ -51,3 +52,15 @@ class ChordList(generics.ListAPIView):
     """
     queryset = Chord.objects.all()
     serializer_class = ChordSerializer
+
+# ragas/1/chords/?root=C => Returns a formatted list of chords, for a raga in the specified key
+@api_view(['GET'])
+def raga_chords(request, pk):
+    """
+    Return a list of all the defined chords, for a particular raga.
+    """
+    raga = Raga.objects.get(pk=pk)
+    root = request.query_params.get('root', 'C')
+
+    chord_list = raga.get_chords(root)
+    return Response(chord_list)

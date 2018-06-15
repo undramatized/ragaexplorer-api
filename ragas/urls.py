@@ -6,5 +6,6 @@ from . import views
 urlpatterns = [
     url(r'^ragas/$', views.RagaList.as_view(), name='raga-list'),
     url(r'^ragas/(?P<pk>[0-9]+)/$', views.RagaDetail.as_view(), name='raga-detail'),
+    url(r'^ragas/(?P<pk>[0-9]+)/chords/$', views.raga_chords, name='raga-chord-list'),
     url(r'^chords/$', views.ChordList.as_view(), name='chord-list'),
 ]
