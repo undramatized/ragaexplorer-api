@@ -9,6 +9,8 @@ deploy:
   api_key:
     secure: tIh0REpNZAV9yfDPRkKUQjnDslBD30soDGfFlFX1n1PXGjPHHa/FCuKDL3p22vrJbq9H9McnTgovJJ9tyqHXgsXRUxCfJrrOM9WLYdU5Lf61dJX/imV961CxsT5y8yDDn3MPUQ+cY7308I0hRj/lIFIHRRm15FvhJXNCFHcT9OcTupLZoaKRx4FdGD43cTodXgMlI2m9Ec9DkxoKhYrWnWVehZuLB6sMgtGooAvDgY/5eHONfG5O2qjrGPktgFbkGGGWoCN1KvnBev5Z0X9a1/4Rj2F7cyoytNK1Z/fQ/+oOjTSZyjQJp1N2JLUwSV56Ce8R8Oy0qsvJeZSWBGrKXUR8jgwL6GTlAaiS61IRSAez0FqH6DqWXSXcN5FChBAqYNahPeH05P6MIZqHow7J0RDqKoGKrU6XVX198Zdt/oPcFCUd8o/K8Dl82lXTGckTkES/Ou28oX/PLn86ZqgJer8M+7eWF8wjQfxQSGWAWfH1IjRS8yY/dxDpjA4lxtwRFpwnGWFKFWHMyeK0LCwIuhxDqPmCiUCOuuQRC6Eo1OsbA4OB8IXOsd6VGlNuO+LVgj+gYnIjJd+tx8VZ68Ahh0nxNNZ0lDoXJzsmFOsWVThyAPEfUlwPc/X9TepacauQt8tL8552VpeMuNY7KjHXj4JvYrIOC0LcA5bsUFV+Cew=
   app: ragaexplorer-api
+  overwrite: true
+  skip_cleanup: true
   on:
     repo: undramatized/ragaexplorer-api
   run:

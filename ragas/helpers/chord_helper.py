@@ -37,7 +37,6 @@ def get_semitone(interval):
     else:
         feature_strip = re.sub(r'\d+', '', interval)
         int_strip = re.sub(r'\D+', '', interval)
-        print interval, feature_strip, int_strip
         feature = NOTE_FEATURES[feature_strip]
         semitones = NOTE_INTERVALS[int_strip]
         return semitones+feature
