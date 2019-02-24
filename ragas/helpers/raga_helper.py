@@ -54,25 +54,30 @@ def transpose_chord(swara_semi, chord_semi):
 def get_chords_from_swaras(swaras, chords, root):
     swara_semitones = get_semitones(swaras)
     swara_semi_set = set(swara_semitones)
-    swara_chords = {}
+    all_swara_chords = {}
 
     for i in range(len(swaras)):
         note = get_swara_note(swaras[i], root)
-        chords = []
+        swara_chords = []
         for chord in chords:
             chord_semitones = chord.get_semitones()
             transposed_semitones = transpose_chord(swara_semitones[i], chord_semitones)
             transposed_set = set(transposed_semitones)
 
             if transposed_set.issubset(swara_semi_set):
-                chords.append(chord.id)
+                chord_details = {
+                'chord_name': note + chord.affix,
+                'chord_id': chord.id,
+                'chord_formula': chord.formula
+                }
+                swara_chords.append(chord_details)
         swara_chord_obj = {
             'note': note,
-            'chords': chords
+            'chords': swara_chords
         }
-        swara_chords[swaras[i]] = swara_chord_obj
+        all_swara_chords[swaras[i]] = swara_chord_obj
 
-    return swara_chords
+    return all_swara_chords
 
 
 

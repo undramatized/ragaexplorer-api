@@ -1,3 +1,5 @@
+import re
+
 NOTES = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"]
 
 NOTE_INTERVALS = {
@@ -30,11 +32,14 @@ NOTE_FEATURES = {
 def get_semitone(interval):
     if interval[0] == '(':
         return get_semitone(interval[1:-1])
-    elif len(interval) == 1:
+    elif interval.isdigit():
         return NOTE_INTERVALS[interval]
     else:
-        feature = NOTE_FEATURES[interval[:-1]]
-        semitones = NOTE_INTERVALS[interval[len(interval)-1]]
+        feature_strip = re.sub(r'\d+', '', interval)
+        int_strip = re.sub(r'\D+', '', interval)
+        print interval, feature_strip, int_strip
+        feature = NOTE_FEATURES[feature_strip]
+        semitones = NOTE_INTERVALS[int_strip]
         return semitones+feature
 
 # Converts the chord formula interval to semitones from root, including omitted detail
